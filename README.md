@@ -18,3 +18,6 @@ class $DAO$ extends BaseDao<$MODELO$>{
 }
 
 
+
+https://dev.to/ameysunu/dockerize-your-flutter-app-3feg
+https://www.docker.com/get-started/
