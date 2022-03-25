@@ -1,5 +1,8 @@
 
 import 'package:flutter/material.dart';
+import 'package:tudo_com_amor/features/produto/produtos_page.dart';
+
+import '../../core/utils/nav.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
@@ -49,7 +52,7 @@ class HomePage extends StatelessWidget {
               leading: Icon(Icons.app_registration),
               title: Text('Produtos'),
               onTap: () {
-
+                push(context, ProdutosPage());
               },
             ),
             ListTile(
